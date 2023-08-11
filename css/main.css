@@ -1,3 +1,11 @@
+:root {
+  --button-color: hsl(223, 87%, 63%);
+  --border-hover-color: hsl(223, 100%, 88%);
+  --error-color: hsl(354, 100%, 66%);
+  --social-border-color: hsl(0, 0%, 59%);
+  --font-color: hsl(209, 33%, 12%);
+}
+
 .pagewrapper {
   font-size: 20px;
   font-family: "Libre Franklin", sans-serif;
