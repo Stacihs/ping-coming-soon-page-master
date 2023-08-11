@@ -36,6 +36,16 @@ form,
   text-align: center;
 }
 
+h1 {
+  font-weight: 300;
+  color: var(--social-border-color);
+}
+
+h1 span {
+  font-weight: 700;
+  color: var(--font-color);
+}
+
 .graphs {
   min-width: 30%;
   max-width: 50%;
