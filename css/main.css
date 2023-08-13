@@ -6,8 +6,11 @@
   --font-color: hsl(209, 33%, 12%);
 }
 
-.pagewrapper {
+body {
   font-size: 20px;
+}
+
+.pagewrapper {
   font-family: "Libre Franklin", sans-serif;
 }
 .container {
@@ -46,8 +49,23 @@ h1 span {
   color: var(--font-color);
 }
 
+.hero {
+  width: 80%;
+}
+
+input {
+  width: 30%;
+  padding: 0.75rem 20px;
+  color: var(--border-hover-color);
+  border: solid 1px;
+  border-radius: 3rem;
+}
+
+input::placeholder {
+  color: var(--border-hover-color);
+}
+
 .graphs {
-  min-width: 30%;
   max-width: 50%;
   height: auto;
 }
