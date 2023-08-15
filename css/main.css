@@ -60,7 +60,7 @@ form {
 }
 
 input {
-  width: 30%;
+  width: 25%;
   padding: 0.75rem 20px;
   color: var(--border-hover-color);
   border: solid 1px;
@@ -78,7 +78,7 @@ button {
   color: white;
   border-radius: 3rem;
   border-style: none;
-  box-shadow: 0px 10px 20px 0px var(--border-hover-color);
+  box-shadow: 0px 5px 10px 0px var(--border-hover-color);
 }
 
 .graphs {
