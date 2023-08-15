@@ -98,12 +98,18 @@ button {
   margin: 3rem;
 }
 
-svg {
+.icons {
   height: 1.5em;
+  width: 1.5em;
   margin: 0.25rem;
   padding: 0.5rem;
   border: solid 1px var(--social-border-color);
   border-radius: 50%;
+}
+
+#copyright {
+  font-size: 0.75rem;
+  color: var(--social-border-color);
 }
 
 .attribution {
