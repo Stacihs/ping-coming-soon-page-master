@@ -12,7 +12,9 @@ body {
 
 .pagewrapper {
   font-family: "Libre Franklin", sans-serif;
+  height: 100vh;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -51,6 +53,10 @@ h1 span {
 
 .hero {
   width: 80%;
+}
+form {
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
 }
 
 input {
