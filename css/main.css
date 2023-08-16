@@ -1,6 +1,7 @@
 :root {
   --button-color: hsl(223, 87%, 63%);
-  --border-hover-color: hsl(223, 100%, 88%);
+  --border-color: hsl(223, 100%, 88%);
+  --hover-color: hsl(227, 82%, 76%);
   --error-color: hsl(354, 100%, 66%);
   --social-border-color: hsl(0, 0%, 59%);
   --font-color: hsl(209, 33%, 12%);
@@ -73,13 +74,13 @@ form {
 input {
   width: 30%;
   padding: 0.75rem 20px;
-  color: var(--border-hover-color);
+  color: var(--border-color);
   border: solid 1px;
   border-radius: 3rem;
 }
 
 input::placeholder {
-  color: var(--border-hover-color);
+  color: var(--border-color);
 }
 
 button {
@@ -89,7 +90,11 @@ button {
   color: white;
   border-radius: 3rem;
   border-style: none;
-  box-shadow: 0px 5px 10px 0px var(--border-hover-color);
+  box-shadow: 0px 5px 10px 0px var(--border-color);
+}
+
+button:hover {
+  background-color: var(--hover-color);
 }
 
 .graphs {
@@ -105,6 +110,11 @@ button {
   padding: 0.5rem;
   border: solid 1px var(--social-border-color);
   border-radius: 50%;
+}
+
+.icons:hover {
+  fill: white;
+  background-color: var(--button-color);
 }
 
 #copyright {
