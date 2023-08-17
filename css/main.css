@@ -95,6 +95,7 @@ button {
 
 button:hover {
   background-color: var(--hover-color);
+  cursor: pointer;
 }
 
 .graphs {
@@ -115,6 +116,7 @@ button:hover {
 .icons:hover {
   fill: white;
   background-color: var(--button-color);
+  cursor: pointer;
 }
 
 #copyright {
